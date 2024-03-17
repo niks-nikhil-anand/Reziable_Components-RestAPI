@@ -1,0 +1,18 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.draggable-box {
+  width: 200px;
+  height: 200px;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: move; /* Change cursor to indicate draggable */
+}
